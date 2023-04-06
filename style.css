@@ -1,0 +1,41 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #DFB3EE;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .hero-banner {
+    background: #835C90 (132, 92, 144);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 15vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+  }
+  .hero-banner div {
+    flex: 0 0 90%;
+  }
+  
+ 
+
